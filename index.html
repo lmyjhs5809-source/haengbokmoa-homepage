@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>시립행복모아어린이집</title>
+  <meta name="description" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="images/building.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Jua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--
+    ✏️ 글자·사진은 이 파일이 아니라 content.js 에서 바꿉니다.
+    🎨 색깔은 style.css 맨 위에서 바꿉니다.
+  -->
+  <header id="header">
+    <div class="wrap">
+      <a class="brand" href="#top">
+        <span class="brand-logo" id="brandLogo">🌱</span>
+        <span class="brand-name"><small id="brandSub"></small><b id="brandName"></b></span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="메뉴 열기">☰</button>
+      <nav id="nav"><ul id="navList"></ul></nav>
+    </div>
+  </header>
+
+  <main id="main"></main>
+
+  <footer>
+    <div class="wrap">
+      <div>
+        <b id="footName"></b>
+        <div id="footInfo"></div>
+        <div class="copy" id="footCopy"></div>
+      </div>
+      <div class="f-links" id="footLinks"></div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox"><img alt=""><p></p></div>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
